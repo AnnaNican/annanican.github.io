@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Week 38 — Anna Nicanorova</title><link rel="stylesheet" href="../../../../../style.css"></head>
+<body><a class="skip" href="#main">Skip to content</a><div class="wrap"><header class="mast"><a class="mark" href="../../../../../index.html" aria-label="Anna Nicanorova, home">an.</a><span class="micro edition">Personal site</span><nav class="micro" aria-label="Main navigation"><a href="../../../../../index.html">Home</a><a href="../../../../../work-1/index.html">Work</a><a href="../../../../../projects/index.html">Projects</a><a href="../../../../../mountains/index.html">Mountains</a><a href="../../../../../essays/index.html" aria-current="page">Writing</a><a href="../../../../../contact/index.html">Contact</a></nav></header><main id="main"><p class="micro crumb"><a href="../../../../index.html">In Crampons to Museum</a></p><h1 class="page-title">Week 38</h1><article class="prose inner"><p><strong>Date:</strong> September 21, 2020</p>
+<p>People write books about different things. We have books about big concepts things universe and small things like bacteria. We have books with instructional information like pilot manuals and abstract information like novels. There are books about the lives of other people, detailed records of historical events that were created by people, descriptions of scientific observations made by people, and discussions on our aesthetic evolution. And then there are books about very strange things like one line of code.</p>
+<p>The book <strong>10 PRINT CHR$(205.5+RND(1)); : GOTO 10</strong> is a book written about one line of code. Under the examination of this simple program, the book touches on a variety of topics ranging from computer-generated art, the history of mazes and labyrinths, forms of randomness, the psychology of repetition, the history of hardware among some. The book is<a href="https://10print.org/">free to download</a>, but I highly recommend getting your own physical copy.</p>
+<hr />
+<p><img src="https://images.squarespace-cdn.com/content/v1/5badfa2ef8135a3bb3c5dc34/1600692168949-DZBDMSNALGF9JOI18N8W/victor-vasarely-kinetic-composition.jpg" alt="victor-vasarely-kinetic-composition.jpg" loading="lazy" decoding="async" /></p>
+<p>Victor Vaserely is widely accepted as a “grandfather” and leader of the Op art movement. His work is so systematized that he invented a notation system to enable the team of assistants to assemble his work using instructions and modular, prefabricated color pieces. (Looks like even before Sol Le Witt)</p>
+<hr />
+<p>As I was reading <strong>10PRINT</strong> I went down the rabbit hole of thinking of other famous one-liners in programing. <em>One liners</em> in general have a very expert quality in it - it is almost bragging rights for a developer to make computer do something with as little lines as possible. But a one-liner is an entirely different game. Here are some interesting <a href="https://en.wikipedia.org/wiki/One-liner_program">one-liner programs</a>.</p>
+<pre><code class="language-#">
+</code></pre>
+<p>10 PRINT CHR$(205.5+RND(1)); : GOTO 10</p>
+<pre><code>
+</code></pre>
+<pre><code>
+# c L glob pattern matching a winning entry in the &quot;Best one-liner&quot; category of the IOCCC)
+
+</code></pre>
+<p>main(int c,char**v){return!m(v[1],v[2]);}m(char<em>s,char</em>t){return*t-42?*s?63==*t|*s==*t&amp;&amp;m(s+1,t+1):!*t:m(s,t+1)||*s&amp;&amp;m(s+1,t);}</p>
+<pre><code>
+</code></pre>
+<pre><code></code></pre>
+<p>#perl  This regular expression matches strings whose length is prime.
+/^.?$|^(..+?)\1+$/</p>
+<pre><code></code></pre>
+<pre><code class="language-#bash">
+</code></pre>
+<p>$*lsof / | awk ‘{ if($7 &gt; 1048576) print $7/1048576 “MB” “ “ $9 “ “ $1 }’ | sort -n -u | tail</p>
+<pre><code>
+</code></pre>
+<hr />
+<blockquote>
+<p>“Generative art is a form of art that is either completely or partially created using an autonomous system. This system can be represented by any kind of algorithm: mathematical, mechanical, or biological.”</p>
+</blockquote>
+<p>Brief history:</p>
+<p><em>AN 18TH CENTURY GAME</em> One of the earliest examples of generative 18th century musical game Musikalisches Würfelspiel, where a specific melodic line was assigned to a number on a dice after it was rolled.</p>
+<ul>
+<li><em>THE KALEIDOSCOPE</em> -byproduct of light polarization study, visually shows an algorithm of hypothetical polarization patterns.</li>
+</ul>
+<p><em>THE GRAPHIC EDITOR</em> - as computer technologies started to be widely adopted, the new graphic display in combination with various algorithms can generate uniquely aestethical patterns.</p>
+<p><img src="https://images.squarespace-cdn.com/content/v1/5badfa2ef8135a3bb3c5dc34/1600692485333-ZHV4IAWCVXFSMCWJDJRE/811d503b2a7d79b5306bcac9086806b7.jpg" alt="This is an interesting compilation from dribble" loading="lazy" decoding="async" /></p>
+<p>This is an interesting compilation from <a href="https://dribbble.com/stories/2020/06/23/intro-to-generative-art?utm_campaign=2020-07-07&amp;utm_medium=email&amp;utm_source=courtside-20200707">dribble</a></p>
+<hr />
+<p><img src="https://images.squarespace-cdn.com/content/v1/5badfa2ef8135a3bb3c5dc34/1600692534849-I6LJD7P5KXASGEUX81JS/500004430-03-01.jpg" alt="500004430-03-01.jpg" loading="lazy" decoding="async" /></p>
+<hr />
+<p>As our daily activities are moving move online, more and more people join trade schools(known as coding bootcamps) to learn how to write code and build infrastructure for our online world. Contemporary modern webpages are written in Javascript and the backend data manipulations done by scientists are written in Python. Github publishes a popularity index based on the volume of code committed: <a href="http://pypl.github.io/PYPL.html">PYPL PopularitY of Programming Language index</a> . But there is a very tiny universe that has the minimal number of users: <em><strong>Esoteric Programming Languages</strong></em>(ess-oh-terr-ick), or <em><strong>esolang</strong></em>, is a computer programming language designed to experiment with weird ideas, to be hard to program in, or as a joke, rather than for practical use. The purposes vary from minimalism to exploration of new concepts, to just pure humor. For example Shakesphere computer languages: <a href="http://shakespearelang.sourceforge.net/">The Shakespeare Programming Language</a> was designed to make a language with beautiful source code that resembled Shakespeare plays. Here are some more:</p>
+<ul>
+<li>
+<p>The earliest known resoling is <a href="https://esolangs.org/wiki/INTERCAL">INTERCAL</a> containing commands like DO, PLEASE, or PLEASE DO. (Proposed extensions allow other statement identifiers such as MAYBE.) The politesse of a program’s statement identifiers is checked to make sure it stays within certain limits.</p>
+</li>
+<li>
+<p>The most popular: <em><strong>Brainfuck</strong></em> has inspired the creation of a host of other languages. Due to the fact that the last half of its name is often considered one of the most offensive words in the English language, it is sometimes referred to as brainf***, brainf<em>ck, brainfsck, b</em>***fuck (as a joke)</p>
+</li>
+</ul>
+<hr />
+<p><img src="https://images.squarespace-cdn.com/content/v1/5badfa2ef8135a3bb3c5dc34/1600692918323-V6DL7YJUW2LARAQAVYY7/commodore-executive-64-sx64_unknown_source.jpg" alt="commodore-executive-64-sx64_unknown_source.jpg" loading="lazy" decoding="async" /></p>
+<hr />
+<p><a href="https://www.dangermouse.net/esoteric/piet.html"><em><strong>Piet</strong></em></a> is a programming language in which programs look like abstract paintings. The language is named after Piet Mondrian, who pioneered the field of geometric abstract art. A Piet program is an image file, usually, a gif, which uses a set of 20 colors and the transitions between blocks of those colors to define a series of instructions and program flow. For example this program prints the first 100 Fibonacci numbers</p>
+<p><img src="https://images.squarespace-cdn.com/content/v1/5badfa2ef8135a3bb3c5dc34/1600692981508-3S2BRM7HL7FRM33KIQKU/fibbig.gif" alt="fibbig.gif" loading="lazy" decoding="async" /></p>
+<hr />
+<nav class="page-turn" aria-label="Related entries"><a href="../../28/week-39/index.html">Week 39</a><a href="../../13/week-37/index.html">Week 37</a></nav></article></main><footer class="bottom"><p class="micro">Anna Nicanorova</p><a class="feature" href="../../../../../index.html">Index <span aria-hidden="true">↗</span></a></footer></div></body></html>
